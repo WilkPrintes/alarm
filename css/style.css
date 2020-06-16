@@ -1,0 +1,60 @@
+#app{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15%;
+    display: block;
+    
+}
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+button:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+button#stop:hover{
+    background-color: red;
+}
+button#stop{
+    border: 2px solid red;
+}
+
+html{
+    background-image: linear-gradient(to right, cyan, rgb(1, 126, 134));
+}
+h3{
+    font-size: 35px;
+
+}
+#selecionar{
+    display: inline;
+}
+
+span{
+    text-align: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin: 10px 15px;
+    background-color: white;
+    padding: 10px;
+}
+select{
+    margin: 20px;
+    font-size: 50px;
+}
+#displaySegundos{
+    margin-right: -5px;
+}
