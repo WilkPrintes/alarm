@@ -9,6 +9,8 @@ var segundoAtual;
 
 var interval;
 
+console.log('Feito por Wilk Printes');
+
 for(var i = 0; i<60; i++){
     minutos.innerHTML+= '<option value="'+i+'">'+i+'</option>';
 }
@@ -30,9 +32,9 @@ comeaçar.addEventListener('click',function(){
                 segundoAtual = 59;
 
             }else{
-                alert('Acabou!')
                 document.getElementById('music').play();
                 clearInterval(interval);
+                alert('Acabou!')
                 display.childNodes[1].innerHTML = '00:00'
             }
 
